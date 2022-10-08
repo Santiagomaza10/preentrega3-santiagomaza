@@ -1,0 +1,52 @@
+.hero{
+    background-image: url(../assets/img/index/heroimg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    .herobox{
+        background: rgba(37, 30, 30, 0.685);
+        width: 50%;
+    }
+}
+
+.section-back{
+    background-color: $section-back;
+}
+
+.indexcardscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.indexcard {
+    @include flex-indexcards();
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 15px;
+    i{
+        font-size: 4rem;
+        color: white;
+    }
+}
+
+.tarjeta2 {
+    @extend  .indexcard;
+    p {
+        text-align: center;
+    }
+
+}
+
+.tarjeta3 {
+    @extend .indexcard;
+}
+
