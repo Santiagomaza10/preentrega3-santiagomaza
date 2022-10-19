@@ -38,6 +38,11 @@
     }
 }
 
+.herobox__subtitle{
+    font-style: italic;
+    
+}
+
 .tarjeta2 {
     @extend  .indexcard;
     p {
@@ -48,5 +53,14 @@
 
 .tarjeta3 {
     @extend .indexcard;
+}
+
+.bienvenidosimg{
+    width: 100%;
+    height: 100%;
+}
+
+.elegirnos {
+    background: $section-gradient;
 }
 
